@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>164ebb7b-ba52-4119-aaa9-ed804b95e4fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>connect_db.py</StartupFile>
+    <StartupFile>driver_authentication.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="face_recog.py" />
-    <Compile Include="connect_db.py" />
+    <Compile Include="driver_authentication.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
