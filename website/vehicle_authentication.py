@@ -3,7 +3,6 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
-import pytesseract
 import os
 from os import listdir
 import pyodbc as pyodbc
@@ -12,7 +11,6 @@ import io
 import imutils
 import re
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 cnxn = pyodbc.connect(driver='{SQL Server}', server='DESKTOP-9KO479H\SQLEXPRESS', database='facerecognition',trusted_connection='yes')
 cursor = cnxn.cursor()
 

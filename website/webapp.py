@@ -1,5 +1,4 @@
 from flask import Flask, render_template, url_for, flash, redirect, session , request
-from flask_sqlalchemy import SQLAlchemy 
 from forms import RegistrationForm, LoginForm, AccountForm,MonitoringForm
 from driver_authentication import authenticateDriver
 from vehicle_authentication import authenticateVehicle
